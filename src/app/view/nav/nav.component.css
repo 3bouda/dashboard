@@ -1,0 +1,30 @@
+.nav {
+  box-sizing: border-box;
+  padding-top: 20px;
+}
+li {
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 100%;
+  list-style: none;
+  box-sizing: border-box;
+}
+svg{
+  height: 25%;
+  width: 25%;
+  padding-right: 10px;
+}
+a
+{
+  color: #66615b;
+  text-decoration: none;
+}
+.active{
+  background-color: aliceblue;
+}
+.active path{
+  fill:black;
+}
+ul{
+  padding: 0%;
+}

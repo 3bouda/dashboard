@@ -1,0 +1,21 @@
+<div class="other">
+  <!--<p>{{todayNumber | date}}</p>-->
+<p>today Date: {{todayDate }}</p>
+<p>today Month: {{todayMonth }}</p>
+<p>previous Month: {{previousMonth | date}}</p>
+<p>next Month: {{nextMonth | date}}</p>
+
+<p>today Year: {{todayYear}}</p>
+<p>first day month: {{firstDayMonth}}</p>
+<p>last day month: {{lastDayMonth}}</p>
+<p>number Of Days In Month  : {{lastDayMonth | date : 'dd'}}</p>
+
+  <ul>
+     <li class="day" *ngFor="let day of days; index as i">
+      {{day}}
+    </li>
+  </ul>
+
+
+
+</div>

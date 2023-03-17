@@ -1,0 +1,25 @@
+
+.other{
+  margin-left: 15%;
+  box-sizing: border-box;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.mid {
+  width: 50%;
+  float: left;
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  box-sizing: border-box;
+}
+.card {
+  position: relative;
+  border-radius: 6px;
+  box-shadow: 0 6px 10px -4px rgba(0, 0, 0, 0.15);
+  background-color: #fff;
+  color: #252422;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
